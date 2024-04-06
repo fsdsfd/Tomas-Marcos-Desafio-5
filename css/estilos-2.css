@@ -1,0 +1,83 @@
+body{
+    background-color: #222030;
+}
+header{
+    height: 200px;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    opacity:100%;
+    color: #ff6cff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 220px;
+    background-image: url("imagenes/img/mario-kart-8-deluxe.jpg");
+    opacity:50%;
+}
+
+h2{
+    color: #ff6cff;
+    text-align: center;
+    background-image: url("imagenes/img/mortal-kombat-11.jpg");
+    height: 200px;
+    opacity:50%;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    color: #ff6cff;
+    font-size: 45px;
+    font-weight: 400;
+    margin-left:40px;
+}
+h3:hover{
+    scale: 1.2;
+    align-self: flex-start;
+}
+hr{
+    border: 2px solid #eb3feb;
+    width:100%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    align-self: center;
+    width: 80%;
+    opacity:70%;
+}
+p{
+    text-align: start;
+    margin-left:50px;
+    color:#ffe9ff ;
+}
+button{
+    background-color: rgb(241, 64, 0);
+    width: 300px;
+    height: 50px;
+    border-radius:10px;
+    border: none;
+    color: #ffe9ff;
+    font-size: 30px;
+    align-self:center;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.button:hover{
+    background-color: #A32E00;
+}
+.button:active{
+    background-color: gold;
+    color:#eb3feb
+}
+footer{
+    background-color: rgb(68, 122, 122);
+    color:azure;
+    text-align: center;
+    height:300px;
+    align-content: center;
+}
